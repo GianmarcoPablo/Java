@@ -1,25 +1,13 @@
 
-public class Perro {
+public class Perro extends Mascota {
 
-    String nombre;
-    String raza;
-    int edad;
-
-    void comer() {
-        System.out.println("El perro se encuentra comiendo");
+    public Perro(String nombre, String raza, int edad) {
+        super(nombre, raza, edad);
     }
 
-    void ladrar() {
-        System.out.println("El perro se encuentra comiendo");
-    }
-
-    void dormir() {
-        System.out.println("El perro se encuentra comiendo");
-    }
-
-    void establecerAtributos(String nombre, String raza, int edad) {
-        this.nombre = nombre;
-        this.raza = raza;
-        this.edad = edad;
+    @Override
+    public void dormir() {
+        super.dormir();
+        System.out.println("Zzzz editado");
     }
 }
