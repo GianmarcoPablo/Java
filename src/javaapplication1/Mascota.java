@@ -1,4 +1,4 @@
-public class    Mascota {
+public class Mascota {
 
     String nombre;
     String raza;
@@ -10,12 +10,12 @@ public class    Mascota {
         this.edad = edad;
     }
 
-    //getters y setters
+    // getters y setters
 
     public String getNombre() {
         return nombre;
     }
-    
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -43,5 +43,5 @@ public class    Mascota {
     public void sonido() {
         System.out.println("...");
     }
-    
+
 }
